@@ -40,3 +40,27 @@ nav li .dropdown{
 nav li:hover > .dropdown{
     display: block;
 }
+p, h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fig{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image-container{
+    display: flex;
+    height: 500px;
+    gap: 5px;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 576px){
+    .image-container{
+        flex-direction: column;
+    }
+}
